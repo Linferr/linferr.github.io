@@ -1,0 +1,9 @@
+# Normalize text files and keep Windows-friendly line endings in working tree
+# Since you prefer CRLF, enforce it for web assets.
+
+* text=auto
+
+*.html text eol=crlf
+*.css  text eol=crlf
+*.js   text eol=crlf
+*.md   text eol=crlf

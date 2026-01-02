@@ -1,148 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ###### META / BASICS ###### -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Linfeng Gao — New Grad SWE (Backend / ML Systems / Testing) in Toronto, Canada." />
+
+  <!-- ###### OPEN GRAPH ###### -->
+  <meta property="og:title" content="Linfeng Gao" />
+  <meta property="og:description" content="New Grad SWE (Backend / ML Systems / Testing) in Toronto, Canada." />
+  <meta property="og:type" content="website" />
+
   <title>Linfeng Gao</title>
+
+  <!-- ###### STYLES ###### -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <!-- ###### ACCESSIBILITY ###### -->
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="container">
-  <h1>Linfeng Gao</h1>
-  <p class="subtitle">
-    M.Eng. ECE @ University of Toronto · Software / ML / Systems
-  </p>
+  <!-- ###### PAGE LAYOUT WRAPPER ###### -->
+  <div class="container">
 
-  <p class="links">
-    <a href="mailto:gaolf01@outlook.com">Email</a>
-    <span class="dot">·</span>
-    <a href="https://github.com/Linferr" target="_blank" rel="noreferrer">GitHub</a>
-    <span class="dot">·</span>
-    <a href="assets/Linfeng-Gao-CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
-  </p>
-</header>
-
-<main class="container">
-
-  <section>
-    <h2>Education</h2>
-    <div class="item">
-      <div class="row">
-        <strong>University of Toronto</strong>
-        <span class="muted">Sep 2024 – Present</span>
+    <!-- ###### LEFT SIDEBAR ###### -->
+    <aside class="sidebar">
+      <div class="identity">
+        <h1 class="name">Linfeng Gao</h1>
+        <p class="tagline">New Grad Software Engineer</p>
+        <p class="subtag">Backend · ML Systems · Testing</p>
       </div>
-      <div class="muted">M.Eng. in Electrical and Computer Engineering</div>
-    </div>
-    <div class="item">
-      <div class="row">
-        <strong>University of British Columbia</strong>
-        <span class="muted">Sep 2020 – Jun 2024</span>
+
+      <!-- ###### QUICK FACTS ###### -->
+      <div class="block">
+        <p class="meta"><span class="label">Location:</span> Toronto, ON, Canada</p>
+        <p class="meta"><span class="label">Phone:</span> <a href="tel:+19423804181">+1 (942) 380-4181</a></p>
+        <p class="meta"><span class="label">Email:</span> <a href="mailto:gaolf01@outlook.com">gaolf01@outlook.com</a></p>
       </div>
-      <div class="muted">B.A.Sc. in Electrical and Computer Engineering</div>
-    </div>
-  </section>
 
-  <section>
-    <h2>Experience</h2>
-
-    <div class="item">
-      <div class="row">
-        <strong>Huawei Technologies — Software Testing Intern</strong>
-        <span class="muted">Jul 2025 – Oct 2025</span>
+      <!-- ###### LINKS ###### -->
+      <div class="block">
+        <p class="links-title">Links</p>
+        <ul class="links">
+          <li><a href="Linfeng-Gao-CV.pdf">CV (PDF)</a></li>
+          <!-- Replace placeholders when you're ready -->
+          <li><a href="https://github.com/Linferr" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/linfeng-gao-0840b8243/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
       </div>
-      <ul>
-        <li>Built fuzzing components for ArkTS (HarmonyOS): grammar generation and adaptation strategies.</li>
-        <li>Validated JavaScript VM functionality for spec compliance.</li>
-      </ul>
-    </div>
 
-    <div class="item">
-      <div class="row">
-        <strong>Ericsson — AI Developer Intern</strong>
-        <span class="muted">Apr 2025 – Jun 2025</span>
+      <!-- ###### PAGE NAV ###### -->
+      <nav class="page-nav" aria-label="Site">
+        <p class="page-nav-title">Pages</p>
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+        </ul>
+      </nav>
+
+      <!-- ###### SHORT NOTE ###### -->
+      <div class="block note">
+        <p>
+          Some internship and lab projects are not publicly shareable.
+          I can provide a short redacted case study or walkthrough upon request.
+        </p>
+        <p class="note-cta">
+          <a href="mailto:gaolf01@outlook.com?subject=Case%20study%20request%20(Linfeng%20Gao)">Request a case study</a>
+        </p>
       </div>
-      <ul>
-        <li>Trained ML models on device logs to detect power-amplifier (PA) failures and reduce manual inspection.</li>
-        <li>Extracted/cleaned unstructured logs using SQL + regex; trained XGBoost and LogBERT models.</li>
-      </ul>
-    </div>
+    </aside>
 
-    <div class="item">
-      <div class="row">
-        <strong>University of Toronto — Research Assistant</strong>
-        <span class="muted">Sep 2024 – Apr 2025</span>
-      </div>
-      <ul>
-        <li>Built academic article retrieval/classification + content extraction pipeline using LLM APIs.</li>
-        <li>Automated experiment data collection, aggregation, and reporting.</li>
-      </ul>
-    </div>
+    <!-- ###### RIGHT MAIN CONTENT ###### -->
+    <main id="main" class="content">
 
-  </section>
+      <!-- ###### ABOUT ###### -->
+      <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m a new‑grad software engineer focused on <strong>backend + ML systems</strong>: building reliable data pipelines,
+          evaluation tooling, and test infrastructure that helps teams ship faster with confidence.
+        </p>
+        <p>
+          Recent work includes compiler testing / fuzzing workflows (Huawei), log‑based anomaly detection pipelines (Ericsson),
+          and a lightweight RAG + evaluation setup in a research lab.
+        </p>
+        <p>
+          I’m currently seeking roles in <strong>Backend SWE</strong>, <strong>ML Engineering (Applied / Systems)</strong>,
+          and <strong>Testing / SDET / Tooling</strong> in Canada, with a preference for teams that value clean systems design,
+          measurable quality, and pragmatic iteration.
+        </p>
+      </section>
 
-  <section>
-    <h2>Selected Projects</h2>
+            <!-- ###### EDUCATION ###### -->
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">University of Toronto</span>
+            <span class="item-meta">M.Eng. ECE (Data Analytics & ML)</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">University of British Columbia</span>
+            <span class="item-meta">B.A.Sc. Computer Engineering</span>
+          </div>
+        </div>
+      </section>
 
-    <div class="item">
-      <div class="row">
-        <strong>Curbside Parking Space Recognition System</strong>
-        <span class="muted">Sep 2023 – May 2024</span>
-      </div>
-      <ul>
-        <li>End-to-end system with YOLOv7 + motion analysis; trained models on Compute Canada.</li>
-        <li>MongoDB cloud storage; React Native app (Android/iOS/Android Auto/CarPlay); edge + LoRaWAN integration.</li>
-      </ul>
-    </div>
+      <!-- ###### EXPERIENCE ###### -->
+      <section class="section" id="experience">
+        <h2>Experience</h2>
 
-    <div class="item">
-      <div class="row">
-        <strong>Bomberman Game on DE1-SoC</strong>
-        <span class="muted">Jan 2023 – May 2023</span>
-      </div>
-      <ul>
-        <li>HTML/CSS/JS frontend; Flask backend APIs; low-latency communication via WebSockets.</li>
-        <li>Deployed on DE1-SoC (Nios II) with Wi-Fi transfer and VGA output; AI opponent path-planning.</li>
-      </ul>
-    </div>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">Huawei — Software Engineering Intern</span>
+            <span class="item-meta">Compiler / Language Tooling</span>
+          </div>
+          <ul class="bullets">
+            <li>Worked on compiler testing and fuzzing workflows for ArkTS/JS pipelines.</li>
+            <li>Designed input generation and execution harness logic to surface failures faster.</li>
+            <li>Standardized reproduction artifacts and failure summaries to reduce triage time.</li>
+          </ul>
+        </div>
 
-    <div class="item">
-      <div class="row">
-        <strong>UBC Mobile Community Chat Platform</strong>
-        <span class="muted">Sep 2022 – Dec 2022</span>
-      </div>
-      <ul>
-        <li>Node.js + MongoDB backend on AWS; real-time chat, posts/comments, reports, facility search.</li>
-        <li>Integrated Google Maps APIs; improved security via auth + input validation + testing.</li>
-      </ul>
-    </div>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">Ericsson — AI / ML Intern</span>
+            <span class="item-meta">Log ML / Anomaly Detection</span>
+          </div>
+          <ul class="bullets">
+            <li>Built end-to-end parsing and feature extraction for non-structured device logs.</li>
+            <li>Trained and evaluated models (e.g., gradient boosting, log-sequence modeling) for fault detection.</li>
+            <li>Partnered with engineers to validate model behavior and reduce manual log-reading effort.</li>
+          </ul>
+        </div>
 
-  </section>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">Psychometrics & Responsible AI Lab — Research Assistant</span>
+            <span class="item-meta">RAG / Evaluation</span>
+          </div>
+          <ul class="bullets">
+            <li>Built a document QA workflow (retrieval + prompting) for domain materials.</li>
+            <li>Implemented lightweight evaluation to compare retrieval settings and consistency.</li>
+          </ul>
+        </div>
+      </section>
 
-  <section>
-    <h2>Skills</h2>
-    <p>
-      <strong>Languages:</strong> Python, JavaScript, C, SQL, Shell<br/>
-      <strong>Tools:</strong> Node.js, Flask, React, MongoDB, AWS, Docker, Hadoop, Qt<br/>
-      <strong>Domains:</strong> Fuzzing, log ML, NLP pipelines, FPGA (Quartus/Nios II/ModelSim/SystemVerilog)
-    </p>
-  </section>
+      <!-- ###### PROJECTS ###### -->
+      <section class="section" id="projects">
+        <h2>Selected Projects</h2>
 
-  <section>
-    <h2>Publications</h2>
-    <p>
-      Jing, Y., Huang, T., <strong>Gao, L.</strong>, Deng, J. (2024).
-      <em>Insulator detection based on FA-YOLO network with improved feature extraction ability.</em>
-      IET Image Processing.
-      <a href="https://doi.org/10.1049/ipr2.13197" target="_blank" rel="noreferrer">DOI</a>
-    </p>
-  </section>
+        <p class="muted">
+          Note: some projects are based on company or lab and are not publicly available.
+          I can share a brief redacted writeup on request.
+        </p>
 
-</main>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">Log-based Anomaly Detection Pipeline</span>
+            <span class="item-meta">Python · SQL · ML</span>
+          </div>
+          <ul class="bullets">
+            <li>Parsed heterogeneous logs into structured events; built features aligned with triage workflow.</li>
+            <li>Compared baseline vs. ML approaches using reproducible evaluation scripts and error analysis.</li>
+          </ul>
+        </div>
 
-<footer class="container footer">
-  <span class="muted">© 2025 Linfeng Gao</span>
-</footer>
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">Domain QA with Retrieval-Augmented Generation</span>
+            <span class="item-meta">RAG · Embeddings · Evaluation</span>
+          </div>
+          <ul class="bullets">
+            <li>Implemented retrieval + response generation workflow for long documents.</li>
+            <li>Added an evaluation harness for retrieval quality and answer consistency.</li>
+          </ul>
+        </div>
 
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">Study Planner App</span>
+            <span class="item-meta">React Native · TypeScript</span>
+          </div>
+          <ul class="bullets">
+            <li>Built core planning flow: tasks, schedule blocks, local persistence, and basic analytics.</li>
+            <li>Added notification logic for study reminders and a clean multi-screen UI.</li>
+          </ul>
+        </div>
+
+        <p class="small">
+          Want details on a private project? <a href="mailto:gaolinfeng2020@163.com?subject=Project%20details%20request%20(Linfeng%20Gao)">Email me</a>.
+        </p>
+      </section>
+
+      <!-- ###### PUBLICATION ###### -->
+      <section class="section" id="publication">
+        <h2>Publication</h2>
+        <p>
+          “Deep Learning-based Precise Detection of Free Street Parking Space”.
+          <span class="muted">IEEE ICAIIC, 2024.</span>
+        </p>
+      </section>
+
+      <!-- ###### SKILLS ###### -->
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="bullets">
+          <li><strong>Languages:</strong> Python, C/C++, Java, TypeScript, SQL</li>
+          <li><strong>ML:</strong> feature engineering, training/evaluation, error analysis</li>
+          <li><strong>Systems:</strong> Linux, Docker, CI/testing, basic cloud deployment</li>
+          <li><strong>Tools:</strong> Git, Bash, VS Code, Jupyter</li>
+        </ul>
+      </section>
+
+      <!-- ###### FOCUS ###### -->
+      <section class="section" id="focus">
+        <h2>Focus</h2>
+        <ul class="bullets">
+          <li>Backend & data systems: pipelines, APIs, storage, evaluation automation.</li>
+          <li>Applied ML: feature engineering, model training, evaluation, monitoring.</li>
+          <li>Testing & reliability: fuzzing, harness design, triage workflows, tooling.</li>
+        </ul>
+      </section>
+
+      <!-- ###### FOOTER ###### -->
+      <footer class="footer">
+        <p>© <span id="year"></span> Linfeng Gao · <a href="mailto:gaolf01@outlook.com">gaolf01@outlook.com</a></p>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- ###### TINY SCRIPT (year only) ###### -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
