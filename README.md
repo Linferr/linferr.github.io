@@ -1,15 +1,15 @@
 # Linfeng Gao — Personal Website
 
-This repo hosts my CV-style personal site (static HTML/CSS) and coursework page.
+Static personal website (HTML/CSS) with my background, experience, projects, and coursework.
 
-- Live site: `https://linferr.github.io/index.html`
-- CV PDF: `assets/Linfeng-cv.pdf`
-- Pages: `index.html` (home), `courses.html` (courses)
+## Links
+- Website: [https://linferr.github.io/](https://linferr.github.io/)
+- CV (PDF): [assets/Linfeng-Gao-CV.pdf](assets/Linfeng-Gao-CV.pdf)
+- Pages: [Home](index.html) | [Courses](courses.html)
 
-## Focus (current)
-- Backend systems, data pipelines, automation
-- ML/LLM engineering: retrieval + evaluation, workflow tooling
-- Testing & reliability: fuzzing, harness design, triage tooling
-
-## Local preview
-- Open `index.html` directly in a browser (no build step required).
+## Focus
+- Backend & data systems: REST APIs, pipelines, automation
+- ML/LLM systems: RAG, agent workflows, evaluation tooling
+- Testing & reliability: fuzzing, harness design, compiler/JIT validation
+- Applied ML: log-based fault detection, data preprocessing/feature pipelines
+- Computer vision: YOLO-based curbside parking recognition
