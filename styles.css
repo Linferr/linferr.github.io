@@ -115,7 +115,7 @@ a:hover{ text-decoration: underline; }
 .section:last-of-type{ border-bottom: none; }
 .section h2{
   margin: 0 0 10px;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--accent);
   padding-left: 10px;
   border-left: 3px solid color-mix(in srgb, var(--accent) 75%, var(--border));
@@ -169,10 +169,10 @@ a:hover{ text-decoration: underline; }
   vertical-align: top;
   padding: 10px 12px;
   border-bottom: 1px solid var(--border);
-  font-size: 14px;
+  font-size: 15px;
 }
 .courses-table th{
-  font-size: 13px;
+  font-size: 13.5px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--muted);
@@ -200,9 +200,21 @@ a:hover{ text-decoration: underline; }
 }
 .inst-heading .title-row h3{
   margin: 10px 0 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.25;
+}
+
+/* ###### Courses: page sections (intro / UBC / UofT) ###### */
+.courses-part{
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.courses-part:first-of-type{
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
 }
 
 /* ###### PAGE NAV (shared) ###### */

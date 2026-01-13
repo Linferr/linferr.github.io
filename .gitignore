@@ -1,0 +1,25 @@
+# Local/private Markdown notes (keep README.md tracked)
+/*.md
+!README.md
+
+# Optional: organize private notes here
+/notes/
+/private_notes/
+/.local/
+
+# Local LaTeX workspace (e.g., resume)
+/latex/
+/resume_latex/
+
+# LaTeX build artifacts (safe to ignore anywhere)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
