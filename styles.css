@@ -27,6 +27,7 @@ html, body{
   color: var(--fg);
   font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
   line-height: 1.55;
+  font-size: 17px;
 }
 
 a{ color: var(--link); text-decoration: none; }
@@ -65,11 +66,11 @@ a:hover{ text-decoration: underline; }
 
 .identity .name{
   margin: 0;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: 0.2px;
 }
-.tagline{ margin: 6px 0 0; font-size: 16px; color: var(--muted); }
-.subtag{ margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.tagline{ margin: 6px 0 0; font-size: 17px; color: var(--muted); }
+.subtag{ margin: 2px 0 0; font-size: 15px; color: var(--muted); }
 
 .block{
   margin-top: 18px;
@@ -77,18 +78,18 @@ a:hover{ text-decoration: underline; }
   border-top: 1px solid var(--border);
 }
 
-.meta{ margin: 8px 0; font-size: 14px; }
+.meta{ margin: 8px 0; font-size: 15px; }
 .label{ color: var(--muted); margin-right: 6px; }
 
 .links-title{
   margin: 0 0 8px;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .links{ list-style: none; padding: 0; margin: 0; }
-.links li{ margin: 6px 0; font-size: 14px; }
+.links li{ margin: 6px 0; font-size: 15px; }
 
 .note{
   background: #fafafa;
@@ -96,8 +97,8 @@ a:hover{ text-decoration: underline; }
   border-radius: 10px;
   padding: 12px;
 }
-.note p{ margin: 0 0 10px; font-size: 13.5px; color: var(--muted); }
-.note-cta a{ font-size: 13.5px; }
+.note p{ margin: 0 0 10px; font-size: 14.5px; color: var(--muted); }
+.note-cta a{ font-size: 14.5px; }
 
 /* ###### CONTENT ###### */
 .content{
@@ -115,7 +116,7 @@ a:hover{ text-decoration: underline; }
 .section:last-of-type{ border-bottom: none; }
 .section h2{
   margin: 0 0 10px;
-  font-size: 20px;
+  font-size: 22px;
   color: var(--accent);
   padding-left: 10px;
   border-left: 3px solid color-mix(in srgb, var(--accent) 75%, var(--border));
@@ -138,20 +139,20 @@ a:hover{ text-decoration: underline; }
   align-items: baseline;
 }
 .item-title{ font-weight: 700; }
-.item-meta{ color: var(--muted); font-size: 13.5px; }
+.item-meta{ color: var(--muted); font-size: 14.5px; }
 
 .bullets{ margin: 8px 0 0 18px; padding: 0; }
 .bullets li{ margin: 6px 0; }
 
 .muted{ color: var(--muted); }
-.small{ margin-top: 10px; font-size: 13.5px; color: var(--muted); }
+.small{ margin-top: 10px; font-size: 14.5px; color: var(--muted); }
 
 /* ###### FOOTER ###### */
 .footer{
   margin-top: 18px;
   padding-top: 14px;
   border-top: 1px solid var(--border);
-  font-size: 13.5px;
+  font-size: 14.5px;
   color: var(--muted);
 }
 
@@ -169,10 +170,10 @@ a:hover{ text-decoration: underline; }
   vertical-align: top;
   padding: 10px 12px;
   border-bottom: 1px solid var(--border);
-  font-size: 15px;
+  font-size: 16px;
 }
 .courses-table th{
-  font-size: 13.5px;
+  font-size: 14.5px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--muted);
@@ -200,7 +201,7 @@ a:hover{ text-decoration: underline; }
 }
 .inst-heading .title-row h3{
   margin: 10px 0 0;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -225,13 +226,13 @@ a:hover{ text-decoration: underline; }
 }
 .page-nav-title{
   margin: 0 0 8px;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .page-nav ul{ list-style: none; padding: 0; margin: 0; }
-.page-nav li{ margin: 6px 0; font-size: 14px; }
+.page-nav li{ margin: 6px 0; font-size: 15px; }
 .page-nav a[aria-current="page"]{ font-weight: 700; }
 
 /* ###### RESPONSIVE ###### */

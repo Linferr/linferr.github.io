@@ -121,6 +121,7 @@
           <ul class="bullets">
             <li>Developed a <strong>grammar-aware fuzzing framework</strong> for ArkTS with context-constrained generation to improve execution coverage.</li>
             <li>Engineered <strong>JIT-targeted fuzzing scenarios</strong> to validate speculative optimization consistency between interpreter and JIT behavior.</li>
+            <li>Built practical triage workflow: minimized repro inputs, standardized failure summaries, and improved debugging turnaround.</li>
           </ul>
         </div>
 
@@ -133,6 +134,7 @@
             <li>Developed an <strong>industrial log-based fault detection system</strong> to automatically identify power amplifier (PA) failures.</li>
             <li>Designed a <strong>data preprocessing pipeline</strong> with SQL and regex parsing to normalize heterogeneous device logs.</li>
             <li>Trained and evaluated models (XGBoost, LogBERT) and implemented decision visualization for engineering interpretability.</li>
+            <li>Delivered end-to-end workflow (data &rarr; model &rarr; analysis) aligned with real troubleshooting and inspection processes.</li>
           </ul>
         </div>
 
@@ -144,6 +146,19 @@
           <ul class="bullets">
             <li>Designed and implemented an <strong>LLM-assisted academic literature pipeline</strong> for large-scale retrieval, classification, and structured extraction.</li>
             <li>Built automated <strong>data pipelines</strong> for experiment processing and reporting to improve reproducibility.</li>
+            <li>Developed evaluation utilities to compare retrieval settings and validate extraction quality.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">National Key Lab of Millimeter Waves (Southeast University) - Research Assistant</span>
+            <span class="item-meta">May 2024 - Aug 2024 &middot; Nanjing, China &middot; Systems / Control</span>
+          </div>
+          <ul class="bullets">
+            <li>Developed a host computer system in C++ (Qt) for system control and state monitoring.</li>
+            <li>Designed and optimized control/adaptation circuits, reusing array panel resources to improve routing and power management efficiency.</li>
+            <li>Supervised undergraduate IoT projects across system design, integration, programming, and performance optimization.</li>
           </ul>
         </div>
       </section>
@@ -152,20 +167,21 @@
       <section class="section" id="projects">
         <h2>Selected Projects</h2>
 
-        <p class="muted">
+        <!-- <p class="muted">
           Note: some projects are based on company or lab and are not publicly available.
           I can share a brief redacted writeup on request.
-        </p>
+        </p> -->
 
         <div class="item">
           <div class="item-head">
-            <span class="item-title">LLM + RAG + Agent (Ongoing)</span>
+            <span class="item-title">Evaluatable LLM-Agent RAG System for Technical Documentation (Ongoing)</span>
             <span class="item-meta">RAG &middot; Agents &middot; Evaluation</span>
           </div>
           <ul class="bullets">
             <li>Designed a <strong>link-first RAG pipeline</strong> that distills large documentation into section-level knowledge cards for reliable downstream reasoning.</li>
             <li>Built an <strong>LLM-driven agent workflow</strong> to orchestrate multi-step document parsing, retrieval, and reasoning.</li>
             <li>Implemented an <strong>evaluation framework</strong> (link hit-rate, section-level recall, answer verification) to compare retrieval strategies.</li>
+            <li>Turned metrics into iteration loops: targeted failure modes, improved prompts/retrieval, and tracked regressions.</li>
           </ul>
         </div>
 
@@ -183,11 +199,27 @@
 
         <div class="item">
           <div class="item-head">
-            <span class="item-title">Bomberman (炸弹人)</span>
-            <span class="item-meta">Game &middot; Grid &middot; Gameplay Logic</span>
+            <span class="item-title">Bomberman Game on DE1-SoC</span>
+            <span class="item-meta">Game &middot; Full Stack &middot; FPGA</span>
           </div>
           <ul class="bullets">
-            <li>Built core Bomberman-style gameplay: grid movement, bomb placement, explosion propagation, and collision handling.</li>
+            <li>Built a web game UI (HTML/CSS/JavaScript) with account management, room discovery, and character control.</li>
+            <li>Implemented a Flask server with APIs for game state processing and low-latency messaging via WebSockets.</li>
+            <li>Deployed on DE1-SoC with Nios II, enabling Wi-Fi data transfer and VGA output for display.</li>
+            <li>Implemented AI opponents with path-planning for single-player mode.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <span class="item-title">UBC Mobile Community Chat Platform</span>
+            <span class="item-meta">Node.js &middot; MongoDB &middot; AWS</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed a campus community platform supporting real-time chat, posts, comments, reports, and location-based facility search.</li>
+            <li>Built backend services with Node.js and MongoDB; deployed on AWS for data storage and business logic.</li>
+            <li>Integrated Google APIs for interactive maps and location-based search.</li>
+            <li>Improved security and quality via authentication, input validation, and functional/compatibility/UI testing.</li>
           </ul>
         </div>
 
@@ -229,7 +261,7 @@
 
       <!-- ###### FOOTER ###### -->
       <footer class="footer">
-        <p>© <span id="year"></span> Linfeng Gao · <a href="mailto:gaolf01@outlook.com">gaolf01@outlook.com</a></p>
+        <p>&copy; <span id="year"></span> Linfeng Gao &middot; <a href="mailto:gaolf01@outlook.com">gaolf01@outlook.com</a></p>
       </footer>
 
     </main>
