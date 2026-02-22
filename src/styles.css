@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Lora:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-paper font-body text-ink antialiased;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+}
+
+@layer components {
+  .site-background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(circle at 15% 12%, rgba(185, 65, 46, 0.14), transparent 44%),
+      radial-gradient(circle at 86% 22%, rgba(18, 64, 54, 0.12), transparent 37%),
+      linear-gradient(180deg, #f9f6ef 0%, #f4eee2 100%);
+  }
+
+  .panel {
+    @apply rounded-3xl border border-line/90 bg-white/85 shadow-card backdrop-blur;
+  }
+
+  .link-strong {
+    @apply font-semibold text-accent underline-offset-4 hover:underline;
+  }
+}

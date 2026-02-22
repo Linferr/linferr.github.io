@@ -1,6 +1,9 @@
 # Local/private Markdown notes (keep README.md tracked)
 /*.md
 !README.md
+node_modules/
+dist/
+*.log
 
 # Optional: organize private notes here
 /notes/
