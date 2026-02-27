@@ -39,7 +39,7 @@ export default function CoursesPage() {
   return (
     <PageShell
       currentPage="courses"
-      cvUrl={basics.cvUrl}
+      cvOptions={basics.cvOptions}
       email={basics.email}
       linkedin={basics.linkedin}
       mainClassName="relative mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 pb-20 pt-28"

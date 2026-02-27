@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export default function PageShell({
   currentPage,
-  cvUrl,
+  cvOptions,
   email,
   linkedin,
   mainClassName,
@@ -12,7 +12,7 @@ export default function PageShell({
   return (
     <div className="relative min-h-screen text-ink selection:bg-accent/20">
       <div className="site-background" aria-hidden="true" />
-      <SiteHeader currentPage={currentPage} cvUrl={cvUrl} />
+      <SiteHeader currentPage={currentPage} cvOptions={cvOptions} />
 
       <main id="main-content" className={mainClassName}>
         {children}

@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <PageShell
       currentPage="home"
-      cvUrl={basics.cvUrl}
+      cvOptions={basics.cvOptions}
       email={basics.email}
       linkedin={basics.linkedin}
       mainClassName="relative mx-auto flex w-full max-w-6xl flex-col gap-16 px-6 pb-20 pt-28 md:gap-20"

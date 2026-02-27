@@ -1,4 +1,5 @@
-import { FileText, Github, GraduationCap, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, GraduationCap, Linkedin, Mail, MapPin } from "lucide-react";
+import CvMenu from "./CvMenu";
 
 export default function Hero({ data, education = [] }) {
   return (
@@ -38,15 +39,12 @@ export default function Hero({ data, education = [] }) {
               <Linkedin size={16} />
               <span>LinkedIn</span>
             </a>
-            <a
-              href={data.cvUrl}
-              target="_blank"
-              rel="noreferrer"
+            <CvMenu
+              options={data.cvOptions}
+              label="One-Page CV"
+              align="left"
               className="inline-flex items-center gap-2 rounded-full border border-accent/35 bg-paper px-5 py-2.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-paper"
-            >
-              <FileText size={16} />
-              <span>One-Page CV</span>
-            </a>
+            />
           </div>
         </div>
 

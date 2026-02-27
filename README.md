@@ -2,11 +2,11 @@
 
 React + Tailwind multi-page website deployed on GitHub Pages.
 
-Please visit: https://linferr.github.io/
+Please visit: [https://linferr.github.io/](https://linferr.github.io/)
 
 ## Pages
-- `/` -> Home
-- `/courses.html` -> Coursework
+- [Home](https://linferr.github.io/)
+- [Coursework](https://linferr.github.io/courses.html)
 
 ## Project structure
 ```text

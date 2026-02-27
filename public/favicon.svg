@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Linfeng Gao icon">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#f6f2ea" stroke="#dfd5c4" stroke-width="2" />
+  <path d="M20 18v28h12" fill="none" stroke="#124036" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M44 22a12 12 0 1 0 0 20h5" fill="none" stroke="#b9412e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="54.5" cy="42.5" r="2.2" fill="#b9412e" />
+</svg>

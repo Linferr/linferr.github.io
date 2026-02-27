@@ -1,3 +1,5 @@
+import CvMenu from "./CvMenu";
+
 function NavLink({ href, label, isActive }) {
   return (
     <a
@@ -14,7 +16,7 @@ function NavLink({ href, label, isActive }) {
   );
 }
 
-export default function SiteHeader({ currentPage, cvUrl }) {
+export default function SiteHeader({ currentPage, cvOptions }) {
   return (
     <>
       <a
@@ -40,14 +42,11 @@ export default function SiteHeader({ currentPage, cvUrl }) {
               label="Courses"
               isActive={currentPage === "courses"}
             />
-            <a
-              href={cvUrl}
-              target="_blank"
-              rel="noreferrer"
+            <CvMenu
+              options={cvOptions}
+              label="CV PDF"
               className="ml-1 rounded-full border border-accent/35 px-3 py-1.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-paper"
-            >
-              CV PDF
-            </a>
+            />
           </nav>
         </div>
       </header>

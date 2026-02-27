@@ -1,4 +1,9 @@
-import cvPdf from "../../assets/Linfeng-cv.pdf";
+import cvPdf from "../../assets/cv/Linfeng-cv.pdf";
+import cvZhPdf from "../../assets/cv/Linfeng-cv-zh.pdf";
+import arcBriefDailyBriefImage from "../../assets/arcbrief_images/daily_beirf_page.png";
+import arcBriefDailyDiscordImage from "../../assets/arcbrief_images/daily_dc_bot.png";
+import arcBriefResearchImage from "../../assets/arcbrief_images/research_page.png";
+import arcBriefSettingsImage from "../../assets/arcbrief_images/settings_page.png";
 
 const resumeData = {
   basics: {
@@ -13,7 +18,11 @@ const resumeData = {
     email: "gaolf01@outlook.com",
     github: "https://github.com/Linferr",
     linkedin: "https://www.linkedin.com/in/linfeng-gao-0840b8243/",
-    cvUrl: cvPdf
+    cvUrl: cvPdf,
+    cvOptions: [
+      { label: "\u4E2D\u6587", href: cvZhPdf },
+      { label: "English", href: cvPdf }
+    ]
   },
   focus: [
     "Full-stack development: build practical web products with clear APIs and reliable deployment workflows.",
@@ -98,7 +107,29 @@ const resumeData = {
         "Operated FastAPI + APScheduler backend on Railway with Next.js frontend on Vercel."
       ],
       tech: ["FastAPI", "APScheduler", "LLM agents", "Next.js", "SQLite", "Discord Bot"],
-      link: ""
+      link: "",
+      gallery: [
+        {
+          src: arcBriefDailyBriefImage,
+          alt: "ArcBrief daily briefing dashboard screenshot",
+          label: "Daily Brief"
+        },
+        {
+          src: arcBriefResearchImage,
+          alt: "ArcBrief deep research report page screenshot",
+          label: "Research Report"
+        },
+        {
+          src: arcBriefSettingsImage,
+          alt: "ArcBrief settings and profile page screenshot",
+          label: "Settings"
+        },
+        {
+          src: arcBriefDailyDiscordImage,
+          alt: "ArcBrief Discord bot delivery screenshot",
+          label: "Discord Delivery"
+        }
+      ]
     },
     {
       name: "Curbside Parking Recognition",
