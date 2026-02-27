@@ -10,14 +10,20 @@ Please visit: [https://linferr.github.io/](https://linferr.github.io/)
 
 ## Project structure
 ```text
+index.html
+courses.html
+public/
+  favicon.svg
+assets/
+  cv/
+  images/
 src/
   pages/
-    HomePage.jsx
-    CoursesPage.jsx
   components/
   data/
   main-home.jsx
   main-courses.jsx
+
 ```
 
 ## Content source
